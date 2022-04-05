@@ -14,7 +14,11 @@
                         </div>
                     @endif
                     Hello {{ $user->name }} <br>
-                    <br>{{ Auth::user()->username; }}<br>
+                    <hr>
+                    Your info :<br>
+                    Username : {{ $user->username; }}<br>
+                    Email : {{ $user->email; }}<br>
+                    Created : {{ $user->created_at; }}<br>
                     {{ __('You are logged in!') }}
                 </div>
             </div>
