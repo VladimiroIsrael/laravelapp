@@ -20,6 +20,7 @@
                     Email : {{ $user->email; }}<br>
                     Created : {{ $user->created_at; }}<br>
                     {{ __('You are logged in!') }}
+                    Have a good day
                 </div>
             </div>
         </div>
